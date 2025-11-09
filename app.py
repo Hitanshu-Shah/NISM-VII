@@ -45,7 +45,8 @@ st.markdown("""
         box-shadow: 0 4px 6px rgba(0,0,0,0.2);
     }
     .question-box {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+       background: linear-gradient(135deg, #d7dce4 0%, #9aa6c4 100%);
+        color: white;
         padding: 25px;
         border-radius: 15px;
         border-left: 5px solid #1f77b4;
@@ -883,3 +884,4 @@ st.markdown("""
     <p style='font-size: 0.8rem;'>Based on official NISM workbook - June 2025 version</p>
 </div>
 """, unsafe_allow_html=True)
+
